@@ -1,4 +1,4 @@
-package com.xinchao.tech.xianchaoad.simulator;
+package main.com.xinchao.tech.xianchaoad.simulator;
 
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.Shell;
@@ -8,7 +8,7 @@ public class SimulatorApp {
 	public static void main(String[] args) {
 		Display display = Display.getDefault(); // 1.创建一个Display
 		Shell shell = new Shell();// 2.创建一个或者多个Shell(shell是程序的主窗口)
-		shell.setSize(450, 300);// 3.设置Shell的布局(设置主窗口的大小)
+		shell.setSize(550, 500);// 3.设置Shell的布局(设置主窗口的大小)
 		shell.setText("模拟器");
 		// 4.创建Shell中的组件(这个例子中没有加入组件,只是一个空窗口)
 		shell.open();// 5.用Open()方法打开Shell窗口 打开shell主窗口
